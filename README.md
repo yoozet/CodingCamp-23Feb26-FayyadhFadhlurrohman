@@ -13,7 +13,7 @@ Bisa langsung cek live preview-nya di sini ya:
 - **Tailwind CSS**: Biar gampang dan rapi ngatur layout responsif (bisa enak diliat lewat HP atau laptop).
 - **JavaScript (Vanilla)**: Buat nanganin logika simpel, contohnya animasi scroll, highlight menu navbar pas scroll, sama validasi form kontak.
 
-## � Isi File
+## 🗂️ Isi File
 
 - `index.html` → Halaman utamanya.
 - `style.css` → Styling tambahan di luar tailwind.
