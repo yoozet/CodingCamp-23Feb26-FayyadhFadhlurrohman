@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Fayyadh Fadhlurrohman</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <meta
+      name="description"
+      content="Website portofolio Fayyadh Fadhlurrohman – Mahasiswa Teknologi Informasi."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: { inter: ["Inter", "sans-serif"] },
+            colors: {
+              brand: { yellow: "#FBBF24", dark: "#1a1a2e", card: "#16213e" },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="font-inter bg-gray-50 text-gray-800 scroll-smooth">
+    <nav
+      id="home"
+      class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200/60 shadow-sm"
+    >
+      <div
+        class="max-w-6xl mx-auto px-3 sm:px-6 py-2 sm:py-3 flex items-center justify-between gap-2"
+      >
+        <a href="#hero" class="flex items-center gap-2 flex-shrink-0">
+          <div
+            class="w-9 h-9 sm:w-11 sm:h-11 rounded-full overflow-hidden shadow-md logo-spin flex-shrink-0 bg-white border-2 border-yellow-400 p-0.5"
+          >
+            <img
+              src="assets/favicon.ico"
+              alt="Logo"
+              class="w-full h-full object-contain"
+            />
+          </div>
+          <span
+            class="font-semibold text-gray-700 text-xs sm:text-sm hidden sm:block whitespace-nowrap"
+            >My Website</span
+          >
+        </a>
+
+        <div class="flex items-center gap-1">
+          <a
+            href="#hero"
+            class="nav-link px-2 py-1 sm:px-4 sm:py-1.5 rounded border border-gray-300 text-xs sm:text-sm font-medium hover:bg-yellow-400 hover:border-yellow-400 hover:text-gray-900 transition-all duration-200"
+          >
+            Home
+          </a>
+          <a
+            href="#portofolio-saya"
+            class="nav-link px-2 py-1 sm:px-4 sm:py-1.5 rounded border border-gray-300 text-xs sm:text-sm font-medium hover:bg-yellow-400 hover:border-yellow-400 hover:text-gray-900 transition-all duration-200"
+          >
+            <span class="hidden xs:inline">Portofolio</span
+            ><span class="xs:hidden">Porto</span>
+          </a>
+          <a
+            href="#projek"
+            class="nav-link px-2 py-1 sm:px-4 sm:py-1.5 rounded border border-gray-300 text-xs sm:text-sm font-medium hover:bg-yellow-400 hover:border-yellow-400 hover:text-gray-900 transition-all duration-200"
+          >
+            Projek
+          </a>
+          <a
+            href="#message"
+            class="nav-link px-2 py-1 sm:px-4 sm:py-1.5 rounded border border-gray-300 text-xs sm:text-sm font-medium hover:bg-yellow-400 hover:border-yellow-400 hover:text-gray-900 transition-all duration-200"
+          >
+            <span class="hidden sm:inline">Message Us</span
+            ><span class="sm:hidden">Message</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero" class="max-w-6xl mx-auto px-6 py-16 fade-up">
+      <div class="mb-8">
+        <h1 class="text-4xl font-bold text-gray-900 mb-2">
+          Hi I'm Fayyadh Fadhlurrohman,
+          <span class="text-yellow-500">Welcome To Website</span> 👋
+        </h1>
+        <p class="text-gray-500 text-base">
+          Ini adalah website latihan pertama
+        </p>
+      </div>
+
+      <div
+        class="w-full rounded-2xl overflow-hidden shadow-lg bg-gradient-to-br from-yellow-50 via-white to-yellow-100 border border-yellow-100 relative"
+      >
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+
+        <div
+          class="relative z-10 flex flex-col md:flex-row items-center gap-8 px-10 py-12"
+        >
+          <div class="flex-1 text-left">
+            <p
+              class="text-yellow-500 font-semibold text-sm uppercase tracking-widest mb-2"
+            >
+              👋 Halo, saya
+            </p>
+            <h2
+              class="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight"
+            >
+              Fayyadh<br />Fadhlurrohman
+            </h2>
+            <p class="text-gray-600 text-base leading-relaxed mb-6">
+              Seorang
+              <span class="font-semibold text-yellow-600">Web Developer</span>
+              pemula yang sedang belajar membuat website yang menarik dan
+              fungsional. Saya suka eksplorasi teknologi baru dan terus
+              berkembang setiap hari.
+            </p>
+
+            <div class="flex flex-wrap gap-3 mb-6">
+              <span
+                class="bg-yellow-100 text-yellow-700 text-xs font-semibold px-3 py-1.5 rounded-full"
+                >🎓 RevoU Student</span
+              >
+              <span
+                class="bg-yellow-100 text-yellow-700 text-xs font-semibold px-3 py-1.5 rounded-full"
+                >💻 Front-End Dev</span
+              >
+              <span
+                class="bg-yellow-100 text-yellow-700 text-xs font-semibold px-3 py-1.5 rounded-full"
+                >🌟 Open to Work</span
+              >
+            </div>
+
+            <a
+              href="#message"
+              class="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold px-6 py-2.5 rounded-lg transition-all duration-200 shadow-sm hover:shadow-md text-sm"
+            >
+              Hubungi Saya →
+            </a>
+          </div>
+
+          <div class="flex-shrink-0 flex justify-center">
+            <div
+              class="w-60 h-72 md:w-72 md:h-80 rounded-2xl overflow-hidden shadow-xl border-4 border-yellow-300"
+            >
+              <img
+                src="assets/hero-img.png"
+                alt="Fayyadh Fadhlurrohman"
+                class="w-full h-full object-cover object-top"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portofolio-saya" class="py-16 fade-up">
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+          <div class="flex-shrink-0 flex justify-center">
+            <div class="relative">
+              <div
+                class="absolute inset-0 rounded-full bg-yellow-300 opacity-30 blur-2xl scale-110"
+              ></div>
+              <div
+                class="relative w-56 h-56 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-yellow-400 shadow-2xl"
+              >
+                <img
+                  src="assets/fyd.jpeg"
+                  alt="Fayyadh Fadhlurrohman"
+                  class="w-full h-full object-cover object-top"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-1">
+            <p
+              class="text-yellow-500 font-semibold text-sm uppercase tracking-widest mb-2"
+            >
+              ✨ Tentang Saya
+            </p>
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">
+              Fayyadh Fadhlurrohman
+            </h2>
+            <p class="text-gray-500 text-base leading-relaxed mb-6">
+              Saya Mahasiswa Teknologi Informasi yang mendalami
+              <span class="font-semibold text-gray-700"
+                >Data Structures &amp; Algorithms</span
+              >,
+              <span class="font-semibold text-gray-700"
+                >Object-Oriented Programming</span
+              >, serta
+              <span class="font-semibold text-gray-700">Web Development</span>.
+              Berpengalaman dalam mengembangkan aplikasi berbasis web,
+              debugging, dan perancangan sistem. Tertarik pada efisiensi
+              algoritma, software design principles, dan pengembangan solusi
+              berbasis teknologi.
+            </p>
+
+            <h3 class="text-base font-bold text-gray-800 mb-4">
+              🗂️ Pendidikan &amp; Pengalaman
+            </h3>
+
+            <div class="space-y-4">
+              <div class="flex gap-4 items-start">
+                <div
+                  class="flex-shrink-0 w-10 h-10 rounded-full bg-yellow-100 border-2 border-yellow-400 flex items-center justify-center text-lg"
+                >
+                  🎓
+                </div>
+                <div
+                  class="flex-1 bg-gray-50 rounded-xl p-4 border border-gray-100"
+                >
+                  <div
+                    class="flex items-center justify-between flex-wrap gap-1 mb-1"
+                  >
+                    <span class="font-bold text-gray-800 text-sm"
+                      >Universitas Tangerang Raya</span
+                    >
+                    <span
+                      class="text-xs text-yellow-600 bg-yellow-100 px-2 py-0.5 rounded-full font-medium"
+                      >Aktif</span
+                    >
+                  </div>
+                  <p class="text-gray-500 text-xs">
+                    Mahasiswa – Teknologi Informasi
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex gap-4 items-start">
+                <div
+                  class="flex-shrink-0 w-10 h-10 rounded-full bg-yellow-100 border-2 border-yellow-400 flex items-center justify-center text-lg"
+                >
+                  💼
+                </div>
+                <div
+                  class="flex-1 bg-gray-50 rounded-xl p-4 border border-gray-100"
+                >
+                  <div
+                    class="flex items-center justify-between flex-wrap gap-1 mb-1"
+                  >
+                    <span class="font-bold text-gray-800 text-sm"
+                      >Sales Intern</span
+                    >
+                    <span class="text-xs text-gray-400 font-medium"
+                      >Jul 2024 – Sep 2024</span
+                    >
+                  </div>
+                  <p class="text-gray-600 text-xs font-semibold">
+                    First Media Tbk
+                  </p>
+                  <p class="text-gray-400 text-xs mt-1">
+                    Pengalaman magang di bidang penjualan dan customer
+                    engagement.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="projek"
+      class="bg-gray-50 border-t border-b border-gray-100 py-16 fade-up"
+    >
+      <div class="max-w-6xl mx-auto px-6">
+        <div class="mb-10">
+          <p
+            class="text-yellow-500 font-semibold text-sm uppercase tracking-widest mb-1"
+          >
+            💼 Karya Saya
+          </p>
+          <h2 class="text-2xl font-bold text-gray-900">Proyek Portofolio</h2>
+          <p class="text-gray-400 text-sm mt-1">
+            Beberapa proyek yang telah saya kerjakan selama belajar
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div
+            class="hq-card bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 flex flex-col"
+          >
+            <div class="w-full h-44 overflow-hidden">
+              <img
+                src="assets/proyek/proyek1.webp"
+                alt="Proyek 1"
+                class="w-full h-full object-cover city-img transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+            <div class="p-5 flex flex-col gap-2 flex-1">
+              <span
+                class="text-xs font-semibold text-yellow-600 bg-yellow-100 px-2 py-0.5 rounded-full w-fit"
+                >HTML &amp; CSS</span
+              >
+              <h3 class="font-bold text-gray-800 text-base">
+                Proyek Website 1
+              </h3>
+              <p class="text-gray-400 text-sm leading-relaxed flex-1">
+                Website statis pertama yang saya buat saat belajar dasar-dasar
+                HTML dan CSS.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="hq-card bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 flex flex-col"
+          >
+            <div class="w-full h-44 overflow-hidden">
+              <img
+                src="assets/proyek/proyek2.webp"
+                alt="Proyek 2"
+                class="w-full h-full object-cover city-img transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+            <div class="p-5 flex flex-col gap-2 flex-1">
+              <span
+                class="text-xs font-semibold text-yellow-600 bg-yellow-100 px-2 py-0.5 rounded-full w-fit"
+                >JavaScript</span
+              >
+              <h3 class="font-bold text-gray-800 text-base">
+                Proyek Website 2
+              </h3>
+              <p class="text-gray-400 text-sm leading-relaxed flex-1">
+                Proyek dengan interaksi JavaScript untuk menambahkan fitur
+                dinamis pada halaman web.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="hq-card bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 flex flex-col"
+          >
+            <div class="w-full h-44 overflow-hidden">
+              <img
+                src="assets/proyek/proyek3.webp"
+                alt="Proyek 3"
+                class="w-full h-full object-cover city-img transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+            <div class="p-5 flex flex-col gap-2 flex-1">
+              <span
+                class="text-xs font-semibold text-yellow-600 bg-yellow-100 px-2 py-0.5 rounded-full w-fit"
+                >Iot</span
+              >
+              <h3 class="font-bold text-gray-800 text-base">
+                Proyek Website 3
+              </h3>
+              <p class="text-gray-400 text-sm leading-relaxed flex-1">
+                Website modern menggunakan Tailwind CSS dengan desain yang
+                responsif dan menarik.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="message" class="py-16 fade-up">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-2xl font-bold text-gray-900 mb-10">Message Us</h2>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <div
+            class="bg-white rounded-2xl shadow-md p-8 border border-gray-100"
+          >
+            <form id="messageForm" class="space-y-5" novalidate>
+              <div class="form-group">
+                <label
+                  for="nama"
+                  class="block text-sm font-medium text-gray-600 mb-1"
+                  >Nama</label
+                >
+                <input
+                  type="text"
+                  id="nama"
+                  placeholder="Nama"
+                  class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent transition-all"
+                />
+                <p class="error-msg hidden text-red-500 text-xs mt-1">
+                  Nama wajib diisi.
+                </p>
+              </div>
+
+              <div class="form-group">
+                <label
+                  for="tanggal"
+                  class="block text-sm font-medium text-gray-600 mb-1"
+                  >Tanggal Lahir</label
+                >
+                <input
+                  type="date"
+                  id="tanggal"
+                  class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent transition-all"
+                />
+                <p class="error-msg hidden text-red-500 text-xs mt-1">
+                  Tanggal lahir wajib diisi.
+                </p>
+              </div>
+
+              <div class="form-group">
+                <label class="block text-sm font-medium text-gray-600 mb-2"
+                  >Jenis Kelamin</label
+                >
+                <div class="flex items-center gap-6">
+                  <label class="flex items-center gap-2 cursor-pointer">
+                    <input
+                      type="radio"
+                      name="kelamin"
+                      id="lakiLaki"
+                      value="Laki - Laki"
+                      class="accent-yellow-500 w-4 h-4"
+                    />
+                    <span class="text-sm text-gray-700">Laki-Laki</span>
+                  </label>
+                  <label class="flex items-center gap-2 cursor-pointer">
+                    <input
+                      type="radio"
+                      name="kelamin"
+                      id="perempuan"
+                      value="Perempuan"
+                      class="accent-yellow-500 w-4 h-4"
+                    />
+                    <span class="text-sm text-gray-700">Perempuan</span>
+                  </label>
+                </div>
+                <p class="error-msg hidden text-red-500 text-xs mt-1">
+                  Jenis kelamin wajib dipilih.
+                </p>
+              </div>
+
+              <div class="form-group">
+                <label
+                  for="pesan"
+                  class="block text-sm font-medium text-gray-600 mb-1"
+                  >Pesan</label
+                >
+                <textarea
+                  id="pesan"
+                  rows="4"
+                  placeholder="Pesan"
+                  class="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent transition-all resize-none"
+                ></textarea>
+                <p class="error-msg hidden text-red-500 text-xs mt-1">
+                  Pesan wajib diisi.
+                </p>
+              </div>
+
+              <button
+                type="submit"
+                id="submitBtn"
+                class="w-full bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold py-2.5 rounded-lg transition-all duration-200 text-sm shadow-sm hover:shadow-md active:scale-95"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+
+          <div
+            id="previewBox"
+            class="bg-white rounded-2xl shadow-md p-8 border border-gray-100 flex flex-col justify-center items-center min-h-[300px]"
+          >
+            <div id="emptyState" class="text-center text-gray-300">
+              <div class="text-5xl mb-3">📬</div>
+              <p class="text-sm">
+                Isi form di sebelah kiri,<br />lalu klik <strong>Submit</strong>
+              </p>
+            </div>
+
+            <div id="resultCard" class="hidden w-full">
+              <p class="text-xs text-gray-400 mb-4 font-medium">
+                <span class="font-semibold text-gray-600">Current time :</span>
+                <span id="resultTime"></span>
+              </p>
+              <div class="space-y-2 text-sm">
+                <p>
+                  <span class="font-semibold text-gray-700">Nama :</span>
+                  <span id="resultNama" class="text-gray-600"></span>
+                </p>
+                <p>
+                  <span class="font-semibold text-gray-700"
+                    >Tanggal Lahir :</span
+                  >
+                  <span id="resultTanggal" class="text-gray-600"></span>
+                </p>
+                <p>
+                  <span class="font-semibold text-gray-700"
+                    >Jenis Kelamin :</span
+                  >
+                  <span id="resultKelamin" class="text-gray-600"></span>
+                </p>
+                <p>
+                  <span class="font-semibold text-gray-700">Pesan :</span>
+                  <span id="resultPesan" class="text-gray-600"></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-white border-t border-gray-200 py-6">
+      <div class="max-w-6xl mx-auto px-6 text-right">
+        <p class="text-sm text-gray-400">
+          Created By <span class="font-semibold text-yellow-500">Yoozet</span>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
